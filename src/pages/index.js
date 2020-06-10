@@ -45,7 +45,7 @@ import { Link, graphql } from "gatsby"
 // }
 
 export const BlogIndex = () => {
-  ;<p>HELLO WORLD</p>
+  return <p>HELLO WORLD</p>
 }
 
 export default BlogIndex
