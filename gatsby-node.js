@@ -9,9 +9,6 @@ exports.onCreateWebpackConfig = ({
   actions,
 }) => {
   actions.setWebpackConfig({
-    module: {
-      rules: [],
-    },
     plugins: [
       plugins.define({
         NODE_ENV: `development`,
